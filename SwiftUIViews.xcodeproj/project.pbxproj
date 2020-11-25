@@ -12,6 +12,7 @@
 		A0424DEA256393D800387CA2 /* LayoutRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */; };
 		A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DEC2563A28E00387CA2 /* PodcastView.swift */; };
 		A0424DF02563B82A00387CA2 /* ShapeRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */; };
+		A084E8C6256C947F008AEB19 /* HierarchyRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */; };
 		A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */; };
 		A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */; };
 		A0CEB7EA2560E323003E5878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CEB7E92560E323003E5878 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedViews.swift; sourceTree = "<group>"; };
 		A0424DEC2563A28E00387CA2 /* PodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastView.swift; sourceTree = "<group>"; };
 		A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedViews.swift; sourceTree = "<group>"; };
+		A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyRelatedView.swift; sourceTree = "<group>"; };
 		A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
 		A0CEB7E22560E322003E5878 /* SwiftUIViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewsApp.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */,
 				A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */,
 				A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */,
+				A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */,
 				A0424DEC2563A28E00387CA2 /* PodcastView.swift */,
 				A0424DE62563616900387CA2 /* DemoView.swift */,
 				A0CEB7E92560E323003E5878 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A084E8C6256C947F008AEB19 /* HierarchyRelatedView.swift in Sources */,
 				A0424DF02563B82A00387CA2 /* ShapeRelatedViews.swift in Sources */,
 				A0424DE425622FC200387CA2 /* TextRelatedViews.swift in Sources */,
 				A0424DE72563616900387CA2 /* DemoView.swift in Sources */,
