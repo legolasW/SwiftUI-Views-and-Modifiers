@@ -71,7 +71,7 @@ struct ContentsRelatedViews: View {
                             Text("推送提醒")
                         }
                         
-                        Picker(selection: $selectedDuration, label: Text("目标时常")) {
+                        Picker(selection: $selectedDuration, label: Text("目标时长")) {
                             ForEach(0..<targetDurations.count) {
                                 Text(self.targetDurations[$0])
                             }

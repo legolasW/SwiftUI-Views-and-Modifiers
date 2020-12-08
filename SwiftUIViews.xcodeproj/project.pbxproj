@@ -26,9 +26,14 @@
 		A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F3A257542E000A1F99D /* ProjectCardView.swift */; };
 		A08D6F43257545AC00A1F99D /* PlatformRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */; };
 		A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */; };
+		A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */; };
 		A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */; };
 		A0CEB7EA2560E323003E5878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CEB7E92560E323003E5878 /* Assets.xcassets */; };
 		A0CEB7ED2560E323003E5878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CEB7EC2560E323003E5878 /* Preview Assets.xcassets */; };
+		A0D9623025792D92004F797B /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */; };
+		A0D9623125792D92004F797B /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */; };
+		A0D9623225792D92004F797B /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */; };
+		A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */; };
 		A0F0F9FF256EE618009134D8 /* ContentsRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,11 +103,14 @@
 		A08D6F3A257542E000A1F99D /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformRelatedView.swift; sourceTree = "<group>"; };
 		A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
+		A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0CEB7E22560E322003E5878 /* SwiftUIViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewsApp.swift; sourceTree = "<group>"; };
 		A0CEB7E92560E323003E5878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0CEB7EC2560E323003E5878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0CEB7EE2560E323003E5878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZKai-Z03S.ttf"; sourceTree = "<group>"; };
+		A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsRelatedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +165,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A0B6560025787E5500302F33 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */,
+				A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A0B6560125787E6A00302F33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0424DE325622FC200387CA2 /* TextRelatedViews.swift */,
+				A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */,
+				A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */,
+				A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */,
+				A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */,
+				A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */,
+				A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */,
+				A0424DEC2563A28E00387CA2 /* PodcastView.swift */,
+				A08D6F3A257542E000A1F99D /* ProjectCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A0CEB7D92560E322003E5878 = {
 			isa = PBXGroup;
 			children = (
@@ -180,18 +213,12 @@
 		A0CEB7E42560E322003E5878 /* SwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				A0B6560125787E6A00302F33 /* Views */,
+				A0B6560025787E5500302F33 /* Modifiers */,
 				A08D6EDB257516B700A1F99D /* SwiftUIViews.entitlements */,
 				A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */,
-				A0424DE325622FC200387CA2 /* TextRelatedViews.swift */,
-				A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */,
-				A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */,
-				A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */,
-				A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */,
-				A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */,
-				A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */,
-				A0424DEC2563A28E00387CA2 /* PodcastView.swift */,
 				A0424DE62563616900387CA2 /* DemoView.swift */,
-				A08D6F3A257542E000A1F99D /* ProjectCardView.swift */,
+				A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */,
 				A0CEB7E92560E323003E5878 /* Assets.xcassets */,
 				A0CEB7EE2560E323003E5878 /* Info.plist */,
 				A0CEB7EB2560E323003E5878 /* Preview Content */,
@@ -308,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D9623125792D92004F797B /* FZKai-Z03S.ttf in Resources */,
 				A08D6F052575200F00A1F99D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D9623225792D92004F797B /* FZKai-Z03S.ttf in Resources */,
 				A08D6F1E2575201000A1F99D /* Preview Assets.xcassets in Resources */,
 				A08D6F1B2575201000A1F99D /* Assets.xcassets in Resources */,
 			);
@@ -325,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D9623025792D92004F797B /* FZKai-Z03S.ttf in Resources */,
 				A0CEB7ED2560E323003E5878 /* Preview Assets.xcassets in Resources */,
 				A0CEB7EA2560E323003E5878 /* Assets.xcassets in Resources */,
 			);
@@ -356,7 +386,9 @@
 				A0424DEA256393D800387CA2 /* LayoutRelatedViews.swift in Sources */,
 				A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */,
 				A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */,
+				A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */,
 				A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */,
+				A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */,
 				A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */,
 				A08D6F43257545AC00A1F99D /* PlatformRelatedView.swift in Sources */,
 				A0F0F9FF256EE618009134D8 /* ContentsRelatedViews.swift in Sources */,
