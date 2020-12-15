@@ -12,6 +12,7 @@
 		A0424DEA256393D800387CA2 /* LayoutRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */; };
 		A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DEC2563A28E00387CA2 /* PodcastView.swift */; };
 		A0424DF02563B82A00387CA2 /* ShapeRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */; };
+		A075D63325887A0600D47B67 /* EffectRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075D63225887A0600D47B67 /* EffectRelatedModifiers.swift */; };
 		A084E8C6256C947F008AEB19 /* HierarchyRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */; };
 		A08D6F052575200F00A1F99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08D6F042575200F00A1F99D /* Assets.xcassets */; };
 		A08D6F0C2575200F00A1F99D /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A08D6F0B2575200F00A1F99D /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -86,6 +87,7 @@
 		A0424DE9256393D800387CA2 /* LayoutRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedViews.swift; sourceTree = "<group>"; };
 		A0424DEC2563A28E00387CA2 /* PodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastView.swift; sourceTree = "<group>"; };
 		A0424DEF2563B82A00387CA2 /* ShapeRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedViews.swift; sourceTree = "<group>"; };
+		A075D63225887A0600D47B67 /* EffectRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectRelatedModifiers.swift; sourceTree = "<group>"; };
 		A084E8C5256C947F008AEB19 /* HierarchyRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyRelatedView.swift; sourceTree = "<group>"; };
 		A08D6EDB257516B700A1F99D /* SwiftUIViews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIViews.entitlements; sourceTree = "<group>"; };
 		A08D6F022575200D00A1F99D /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +174,7 @@
 			children = (
 				A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */,
 				A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */,
+				A075D63225887A0600D47B67 /* EffectRelatedModifiers.swift */,
 				A0BA526E257F7E220022A0FB /* ImageRelatedModifiers.swift */,
 			);
 			path = Modifiers;
@@ -390,6 +393,7 @@
 				A0424DEA256393D800387CA2 /* LayoutRelatedViews.swift in Sources */,
 				A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */,
 				A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */,
+				A075D63325887A0600D47B67 /* EffectRelatedModifiers.swift in Sources */,
 				A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */,
 				A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */,
 				A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */,
