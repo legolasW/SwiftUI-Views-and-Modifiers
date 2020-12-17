@@ -27,6 +27,7 @@
 		A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F3A257542E000A1F99D /* ProjectCardView.swift */; };
 		A08D6F43257545AC00A1F99D /* PlatformRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */; };
 		A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */; };
+		A0B4410A258AA820004BBED5 /* GestureRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B44109258AA820004BBED5 /* GestureRelatedModifiers.swift */; };
 		A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */; };
 		A0BA526F257F7E220022A0FB /* ImageRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BA526E257F7E220022A0FB /* ImageRelatedModifiers.swift */; };
 		A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */; };
@@ -106,6 +107,7 @@
 		A08D6F3A257542E000A1F99D /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformRelatedView.swift; sourceTree = "<group>"; };
 		A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
+		A0B44109258AA820004BBED5 /* GestureRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0BA526E257F7E220022A0FB /* ImageRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0CEB7E22560E322003E5878 /* SwiftUIViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +177,7 @@
 				A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */,
 				A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */,
 				A075D63225887A0600D47B67 /* EffectRelatedModifiers.swift */,
+				A0B44109258AA820004BBED5 /* GestureRelatedModifiers.swift */,
 				A0BA526E257F7E220022A0FB /* ImageRelatedModifiers.swift */,
 			);
 			path = Modifiers;
@@ -395,6 +398,7 @@
 				A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */,
 				A075D63325887A0600D47B67 /* EffectRelatedModifiers.swift in Sources */,
 				A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */,
+				A0B4410A258AA820004BBED5 /* GestureRelatedModifiers.swift in Sources */,
 				A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */,
 				A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */,
 				A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */,
