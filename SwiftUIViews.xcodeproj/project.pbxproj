@@ -26,6 +26,12 @@
 		A08D6F232575201000A1F99D /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A08D6F022575200D00A1F99D /* Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F3A257542E000A1F99D /* ProjectCardView.swift */; };
 		A08D6F43257545AC00A1F99D /* PlatformRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */; };
+		A08E323825A272D0006B32A7 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323125A272D0006B32A7 /* ImageTransition.swift */; };
+		A08E323925A272D0006B32A7 /* AnimatedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323225A272D0006B32A7 /* AnimatedProgressView.swift */; };
+		A08E323A25A272D0006B32A7 /* ImageTransitionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323325A272D0006B32A7 /* ImageTransitionTwo.swift */; };
+		A08E323B25A272D0006B32A7 /* AnimatedCardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323425A272D0006B32A7 /* AnimatedCardFlip.swift */; };
+		A08E323C25A272D0006B32A7 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323525A272D0006B32A7 /* PlayButton.swift */; };
+		A08E323E25A272D0006B32A7 /* AnimatedRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E323725A272D0006B32A7 /* AnimatedRotate.swift */; };
 		A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */; };
 		A0B4410A258AA820004BBED5 /* GestureRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B44109258AA820004BBED5 /* GestureRelatedModifiers.swift */; };
 		A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */; };
@@ -106,6 +112,12 @@
 		A08D6F202575201000A1F99D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A08D6F3A257542E000A1F99D /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		A08D6F42257545AC00A1F99D /* PlatformRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformRelatedView.swift; sourceTree = "<group>"; };
+		A08E323125A272D0006B32A7 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		A08E323225A272D0006B32A7 /* AnimatedProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedProgressView.swift; sourceTree = "<group>"; };
+		A08E323325A272D0006B32A7 /* ImageTransitionTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransitionTwo.swift; sourceTree = "<group>"; };
+		A08E323425A272D0006B32A7 /* AnimatedCardFlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedCardFlip.swift; sourceTree = "<group>"; };
+		A08E323525A272D0006B32A7 /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		A08E323725A272D0006B32A7 /* AnimatedRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedRotate.swift; sourceTree = "<group>"; };
 		A0A2E5B22565B688002A40E0 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
 		A0B44109258AA820004BBED5 /* GestureRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRelatedModifiers.swift; sourceTree = "<group>"; };
 		A0B6560525787E8700302F33 /* TextRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedModifiers.swift; sourceTree = "<group>"; };
@@ -171,6 +183,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A08E323025A272B1006B32A7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A08E323425A272D0006B32A7 /* AnimatedCardFlip.swift */,
+				A08E323225A272D0006B32A7 /* AnimatedProgressView.swift */,
+				A08E323725A272D0006B32A7 /* AnimatedRotate.swift */,
+				A08E323125A272D0006B32A7 /* ImageTransition.swift */,
+				A08E323325A272D0006B32A7 /* ImageTransitionTwo.swift */,
+				A08E323525A272D0006B32A7 /* PlayButton.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		A0B6560025787E5500302F33 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +249,7 @@
 			children = (
 				A0B6560125787E6A00302F33 /* Views */,
 				A0B6560025787E5500302F33 /* Modifiers */,
+				A08E323025A272B1006B32A7 /* Animations */,
 				A08D6EDB257516B700A1F99D /* SwiftUIViews.entitlements */,
 				A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */,
 				A0424DE62563616900387CA2 /* DemoView.swift */,
@@ -390,20 +416,26 @@
 			files = (
 				A084E8C6256C947F008AEB19 /* HierarchyRelatedView.swift in Sources */,
 				A0424DF02563B82A00387CA2 /* ShapeRelatedViews.swift in Sources */,
+				A08E323E25A272D0006B32A7 /* AnimatedRotate.swift in Sources */,
 				A0424DE425622FC200387CA2 /* TextRelatedViews.swift in Sources */,
 				A0BA526F257F7E220022A0FB /* ImageRelatedModifiers.swift in Sources */,
 				A0424DE72563616900387CA2 /* DemoView.swift in Sources */,
 				A0424DEA256393D800387CA2 /* LayoutRelatedViews.swift in Sources */,
 				A0CEB7E62560E322003E5878 /* SwiftUIViewsApp.swift in Sources */,
 				A0A2E5B32565B688002A40E0 /* ControlRelatedViews.swift in Sources */,
+				A08E323C25A272D0006B32A7 /* PlayButton.swift in Sources */,
+				A08E323925A272D0006B32A7 /* AnimatedProgressView.swift in Sources */,
+				A08E323A25A272D0006B32A7 /* ImageTransitionTwo.swift in Sources */,
 				A075D63325887A0600D47B67 /* EffectRelatedModifiers.swift in Sources */,
 				A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */,
 				A0B4410A258AA820004BBED5 /* GestureRelatedModifiers.swift in Sources */,
+				A08E323B25A272D0006B32A7 /* AnimatedCardFlip.swift in Sources */,
 				A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */,
 				A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */,
 				A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */,
 				A08D6F43257545AC00A1F99D /* PlatformRelatedView.swift in Sources */,
 				A0F0F9FF256EE618009134D8 /* ContentsRelatedViews.swift in Sources */,
+				A08E323825A272D0006B32A7 /* ImageTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
