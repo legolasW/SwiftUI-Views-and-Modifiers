@@ -43,6 +43,8 @@
 		A0D9623125792D92004F797B /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */; };
 		A0D9623225792D92004F797B /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */; };
 		A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */; };
+		A0E5C13825A64761006C6907 /* ViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5C13725A64761006C6907 /* ViewOne.swift */; };
+		A0E5C14025A65FBC006C6907 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5C13F25A65FBC006C6907 /* UnitView.swift */; };
 		A0F0F9FF256EE618009134D8 /* ContentsRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +131,8 @@
 		A0CEB7EE2560E323003E5878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D9622F25792D92004F797B /* FZKai-Z03S.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZKai-Z03S.ttf"; sourceTree = "<group>"; };
 		A0DF71F0257EC272002F9396 /* LayoutRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedModifiers.swift; sourceTree = "<group>"; };
+		A0E5C13725A64761006C6907 /* ViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
+		A0E5C13F25A65FBC006C6907 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
 		A0F0F9FE256EE618009134D8 /* ContentsRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsRelatedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -249,6 +253,7 @@
 			children = (
 				A0B6560125787E6A00302F33 /* Views */,
 				A0B6560025787E5500302F33 /* Modifiers */,
+				A0E5C13325A64743006C6907 /* Data Flow */,
 				A08E323025A272B1006B32A7 /* Animations */,
 				A08D6EDB257516B700A1F99D /* SwiftUIViews.entitlements */,
 				A0CEB7E52560E322003E5878 /* SwiftUIViewsApp.swift */,
@@ -267,6 +272,15 @@
 				A0CEB7EC2560E323003E5878 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0E5C13325A64743006C6907 /* Data Flow */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5C13725A64761006C6907 /* ViewOne.swift */,
+				A0E5C13F25A65FBC006C6907 /* UnitView.swift */,
+			);
+			path = "Data Flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,10 +440,12 @@
 				A08E323C25A272D0006B32A7 /* PlayButton.swift in Sources */,
 				A08E323925A272D0006B32A7 /* AnimatedProgressView.swift in Sources */,
 				A08E323A25A272D0006B32A7 /* ImageTransitionTwo.swift in Sources */,
+				A0E5C14025A65FBC006C6907 /* UnitView.swift in Sources */,
 				A075D63325887A0600D47B67 /* EffectRelatedModifiers.swift in Sources */,
 				A0DF71F1257EC272002F9396 /* LayoutRelatedModifiers.swift in Sources */,
 				A0B4410A258AA820004BBED5 /* GestureRelatedModifiers.swift in Sources */,
 				A08E323B25A272D0006B32A7 /* AnimatedCardFlip.swift in Sources */,
+				A0E5C13825A64761006C6907 /* ViewOne.swift in Sources */,
 				A0424DED2563A28E00387CA2 /* PodcastView.swift in Sources */,
 				A0B6560625787E8700302F33 /* TextRelatedModifiers.swift in Sources */,
 				A08D6F3B257542E000A1F99D /* ProjectCardView.swift in Sources */,
