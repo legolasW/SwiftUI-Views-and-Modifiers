@@ -11,7 +11,19 @@ import SwiftUI
 struct SwiftUIViewsApp: App {
     var body: some Scene {
         WindowGroup {
-            GestureRelatedModifiers()
+            ReactedView(data: Data())
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
