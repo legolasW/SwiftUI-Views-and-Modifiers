@@ -22,3 +22,12 @@ struct ReactedView_Previews: PreviewProvider {
         ReactedView(data: Data())
     }
 }
+
+
+
+
+
+
+
+
+
