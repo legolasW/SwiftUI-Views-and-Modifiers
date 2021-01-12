@@ -8,11 +8,6 @@
 import SwiftUI
 
 
-
-
-
-
-
 struct ViewOne: View {
     @State var userInput = ""
     
@@ -30,19 +25,6 @@ struct ViewTwo: View {
             .padding()
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 struct StateAndBinding_Previews: PreviewProvider {
