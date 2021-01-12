@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftUIViewsApp: App {
+struct SwiftUIViewsApp: App {    
     var body: some Scene {
         WindowGroup {
             ReactedView()

@@ -25,5 +25,3 @@ class Data: ObservableObject {
 
 
 
-
-
