@@ -11,28 +11,24 @@ struct ReactedView: View {
     @StateObject var data = Data()
     
     var body: some View {
-        SubViewOne(data: data)
+        SubViewOne()
     }
 }
 
 struct SubViewOne: View {
-    @ObservedObject var data: Data
-    
     var body: some View {
-        SubViewTwo(data: data)
+        SubViewTwo()
     }
 }
 
 struct SubViewTwo: View {
-    @ObservedObject var data: Data
-    
     var body: some View {
-        SubViewThree(data: data)
+        SubViewThree()
     }
 }
 
 struct SubViewThree: View {
-    @ObservedObject var data: Data
+    @EnvironmentObject var data: Data
     
     var body: some View {
         Text(data.article)
