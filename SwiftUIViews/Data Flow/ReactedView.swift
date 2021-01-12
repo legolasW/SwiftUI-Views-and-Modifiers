@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ReactedView: View {
-    @ObservedObject var data: Data
+    @StateObject var data: Data
     
     var body: some View {
         Text(data.article)
@@ -22,6 +22,10 @@ struct ReactedView_Previews: PreviewProvider {
         ReactedView(data: Data())
     }
 }
+
+
+
+
 
 
 
