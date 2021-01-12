@@ -12,6 +12,7 @@ struct ReactedView: View {
     
     var body: some View {
         SubViewOne()
+            .environmentObject(data)
     }
 }
 
