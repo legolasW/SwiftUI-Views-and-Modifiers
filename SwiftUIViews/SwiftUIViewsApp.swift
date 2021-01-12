@@ -9,11 +9,9 @@ import SwiftUI
 
 @main
 struct SwiftUIViewsApp: App {
-    let data = Data()
-    
     var body: some Scene {
         WindowGroup {
-            ReactedView(data: data)
+            ReactedView()
         }
     }
 }

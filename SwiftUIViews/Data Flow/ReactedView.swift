@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ReactedView: View {
-    @StateObject var data: Data
+    @StateObject var data = Data()
     
     var body: some View {
         Text(data.article)
